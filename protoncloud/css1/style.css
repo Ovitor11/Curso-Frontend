@@ -6,10 +6,16 @@ body {
  font-family: "Roboto", sans-serif;
 }
 .main-container {
-    max-width: 1998px;
+    width: 100vw;
+    display: block;
     margin: 0 auto;
-    
+}
+.container {
     padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    float: left;
 }
 header {
 background-color: #fff;
@@ -17,6 +23,7 @@ display: block;
 float: left;
 width: 100%;
 padding: 20px;
+border-bottom: 1px solid #254159;
 }
 h1 {
     font-size: 2.4rem;
@@ -50,11 +57,12 @@ ol li {
     color: #454545;
     font-size: 1.4rem;
 }
-
 section {
  font-size: 1.5rem; /* equivalente a 15px */
  width: 100%;
  padding: 20px;
+ display: block;
+ float: left;
  background-color: #ffffff;
 }
 section nav {
@@ -66,6 +74,16 @@ nav li {
     margin: 5px 20px 5px 0;
     padding: 10px;
     background-color: #efefef;
+}
+nav li:hover {
+    background-color: #dfdfdf;
+}
+nav a {
+    text-decoration: none;
+    color: #254159;
+}
+nav a:hover {
+    color: #385874;
 }
 section article {
 width: 70%;
@@ -83,4 +101,8 @@ footer {
 footer p {
     color: #ffffff;
     font-size: 1.4rem;
+}
+footer small {
+    font-size: 80%;
+    display: block;
 }
