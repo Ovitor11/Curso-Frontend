@@ -39,6 +39,7 @@ h3 {
     font-size: 1.8rem;
     color: #254159;
     margin-bottom: 20px;
+    padding-top: 10px;
 }
 h4 {
     font-size: 1.6rem;
@@ -49,6 +50,14 @@ h4 {
 p {
     margin-bottom: 10px;
     line-height: 1.4;
+}
+img { /* responsivo */
+    max-width: 100%;
+    height: auto;
+}
+#tenho-interesse {
+    background-color: #7c93a8;
+    width: 100%;
 }
 ol {
     margin-left:20px;
@@ -105,4 +114,23 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+.cog-branding,
+.cog-branding__powered,
+.cog-branding--minimal {
+    display: none !important;
+}
+.cog-abuse,
+.codg-abuse_powered,
+.cog-branding--minimal {
+    display: none !important;
+}
+.cog-form__content,
+.cog-form__content_powered,
+.cog-form__content--minimal {
+    background-color: #7c93a8 !important;
+}
+#tenho-interesse .cog-heading , .cog-label {
+    color: #254159 !important;
+
 }
