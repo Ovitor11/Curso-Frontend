@@ -60,3 +60,6 @@ O repositório resolve os conflitos automaticamente
 ### cconfigura o GitFlow
 git flow init
 git flow feature start {nome-da-feature}
+
+## URL 
+Uniform Resource Locator
